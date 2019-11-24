@@ -42,22 +42,22 @@
         <ul>
             <li class="show">
                 <h3>pic 1</h3>
-                <img src="../apples.PNG" >
+                <img src="https://raw.githubusercontent.com/Avramo/gallerySlider/master/apples.PNG" >
             </li>
             
             <li>
                 <h3>pic 2</h3>
-                <img src="../bananas.PNG" >
+                <img src="https://raw.githubusercontent.com/Avramo/gallerySlider/master/bananas.PNG" >
             </li>
 
             <li>
                 <h3>pic 3</h3>
-                <img src="../oranges.PNG" >
+                <img src="https://raw.githubusercontent.com/Avramo/gallerySlider/master/oranges.PNG" >
             </li>
 
             <li>
                 <h3>pic 4</h3>
-                <img src="../Pineapple.PNG" >
+                <img src="https://raw.githubusercontent.com/Avramo/gallerySlider/master/Pineapple.PNG" >
             </li>
 
         </ul>
@@ -71,7 +71,8 @@
             for (let i = 0; i < 100; i++) {
                 let time = (i*15);
                 setTimeout(()=>{
-                    hideLi.style.left = '-'+i+'%';
+                    //hideLi.style.left = '-'+i+'%';
+                    hideLi.style.opacity = 
                 }, time)                
             }
             if (currentIndex == lastIndex) {
